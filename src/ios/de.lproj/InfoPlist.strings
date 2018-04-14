@@ -1,2 +1,3 @@
-"NSCameraUsageDescription" = "Diese App benötigt Zugriff auf die Kamera, um Bilder aufnehmen zu können.";
-"NSPhotoLibraryUsageDescription" = "Diese App benötigt Zugriff auf das Fotoarchiv, um Bilder auswählen zu können.";
+"NSCameraUsageDescription" = "Diese App benötigt den Zugriff auf die Kamera, umFotos aufzunehmen oder Packstücke zu scannen.";
+"NSPhotoLibraryUsageDescription" = "Diese App benötigt Zugriff auf das Fotoarchiv, um Bilder auswählen und senden zu können.";
+"NSPhotoLibraryAddUsageDescription" = "Diese App benötigt Zugriff auf das Fotoarchiv, Bilder hinzufügen zu können.";
