@@ -1,3 +1,5 @@
-"NSCameraUsageDescription" = "Diese App benötigt den Zugriff auf die Kamera, damit Sie Fotos aufnehmen und Packstücke scannen können.";
-"NSPhotoLibraryUsageDescription" = "Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder auswählen und senden können.";
-"NSPhotoLibraryAddUsageDescription" = "Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder speichern können.";
+"NSCameraUsageDescription" = "TEST: Diese App benötigt den Zugriff auf die Kamera, damit Sie Fotos aufnehmen und Packstücke scannen können.";
+"NSPhotoLibraryUsageDescription" = "TEST: Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder auswählen und senden können.";
+"NSPhotoLibraryAddUsageDescription" = "TEST: Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder speichern können.";
+
+"NSLocationWhenInUseUsageDescription" = "TEST: Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale bekannt ist.";
