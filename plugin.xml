@@ -6,6 +6,12 @@
 	<repo>https://github.com/MBuchalik/cordova-plugin-ios-permissions</repo>
 
 	<platform name="ios">
+		<gap:config-file platform="ios" target="*-Info.plist" parent="CFBundleLocalizations" mode="overwrite">
+				<array>
+					 <string>en</string>
+					 <string>de</string>
+				</array>
+		</gap:config-file>
 	<!--
 		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
 			<string>This app needs access to the camera to take photos.</string>
@@ -15,6 +21,7 @@
 		</config-file>
 	-->
 		<resource-file src="src/ios/de.lproj" />
+		<resource-file src="src/ios/en.lproj" />
 		<!-- <resource-file src="src/ios/pt.lproj" /> -->
 	</platform>
 </plugin>
