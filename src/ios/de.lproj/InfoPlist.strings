@@ -1,9 +1,9 @@
-"NSCameraUsageDescription" = "DE: Diese App benötigt den Zugriff auf die Kamera, damit Sie Fotos aufnehmen und Packstücke scannen können.";
-"NSPhotoLibraryUsageDescription" = "DE: Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder auswählen und senden können.";
-"NSPhotoLibraryAddUsageDescription" = "DE: Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder speichern können.";
+"NSCameraUsageDescription" = "Diese App benötigt den Zugriff auf die Kamera, damit Sie Fotos aufnehmen und Packstücke scannen können.";
+"NSPhotoLibraryUsageDescription" = "Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder auswählen und senden können.";
+"NSPhotoLibraryAddUsageDescription" = "Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder speichern können.";
 
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "DE: Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale immer bekannt ist, auch wenn die App im Hintergrund ist oder der Bildschirm ausgeschaltet ist.";
-"NSLocationWhenInUseUsageDescription" = "DE: Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale bekannt ist.";
-"NSLocationAlwaysUsageDescription" = "DE: Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale immer bekannt ist, auch wenn die App im Hintergrund ist oder der Bildschirm ausgeschaltet ist."; /* IOS 10 and earlier */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Diese App benötigt IMMER den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale immer bekannt ist, auch wenn die App im Hintergrund ist oder der Bildschirm ausgeschaltet ist.";
+"NSLocationWhenInUseUsageDescription" = "Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale bekannt ist.";
+"NSLocationAlwaysUsageDescription" = "Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale immer bekannt ist, auch wenn die App im Hintergrund ist oder der Bildschirm ausgeschaltet ist."; /* IOS 10 and earlier */
 
-"NSMotionUsageDescription" = "DE: Der Zugriff auf die Bewegungs- und Fitness-Daten verringert der Strombedarf und verlängert die Akku-Laufzeit.";
+"NSMotionUsageDescription" = "Der Zugriff auf die Bewegungs- und Fitness-Daten verringert der Strombedarf und verlängert die Akku-Laufzeit.";

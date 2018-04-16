@@ -7,6 +7,10 @@
 
 	<platform name="ios">
 		<!--
+			https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html#//apple_ref/doc/uid/TP40009254-SW1
+			https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/uid/20001431-109552
+		-->
+		<!-- NO!
 		<config-file platform="ios" target="*-Info.plist" parent="CFBundleLocalizations" mode="overwrite">
 				<array>
 					 <string>en</string>
@@ -15,10 +19,11 @@
 		</config-file>
 		-->
 		<!-- CFBundleDevelopmentRegion (String - iOS, macOS) specifies the default language and region for the bundle, as a language ID.
+			For example, English for Australia has the language ID en-AU.
 			The system uses this value if it cannot locate a resource for the user’s preferred language.
 		-->
 		<config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion" mode="overwrite">
-			<string>en</string>
+			<string>en-GB</string>
 		</config-file>
 		<!-- CFBundleLocalizations (Array - iOS, macOS) identifies the localizations handled manually by your app.
 			If your executable is unbundled or does not use the existing bundle localization mechanism,
