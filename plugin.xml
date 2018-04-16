@@ -1,17 +1,17 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ios-permissions" version="1.1.1">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ios-permissions" version="1.2">
 	<name>Cordova iOS Permissions</name>
 	<description>This plugin sets language dependant entries in the IOS plist file; does nothing on Android.</description>
 	<license>MIT</license>
 	<repo>https://github.com/MBuchalik/cordova-plugin-ios-permissions</repo>
 
 	<platform name="ios">
-		<gap:config-file platform="ios" target="*-Info.plist" parent="CFBundleLocalizations" mode="overwrite">
+		<config-file platform="ios" target="*-Info.plist" parent="CFBundleLocalizations" mode="overwrite">
 				<array>
 					 <string>en</string>
 					 <string>de</string>
 				</array>
-		</gap:config-file>
+		</config-file>
 	<!--
 		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
 			<string>This app needs access to the camera to take photos.</string>
