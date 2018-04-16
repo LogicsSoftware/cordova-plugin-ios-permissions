@@ -1,1 +1,8 @@
+"NSCameraUsageDescription" = "EN: Diese App benötigt den Zugriff auf die Kamera, damit Sie Fotos aufnehmen und Packstücke scannen können.";
+"NSPhotoLibraryUsageDescription" = "EN: Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder auswählen und senden können.";
+"NSPhotoLibraryAddUsageDescription" = "EN: Diese App benötigt Zugriff auf das Fotoarchiv, damit Sie Bilder speichern können.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "EN: Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale immer bekannt ist, auch wenn die App im Hintergrund ist oder der Bildschirm ausgeschaltet ist."
+"NSLocationAlwaysUsageDescription" = "EN: Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale immer bekannt ist, auch wenn die App im Hintergrund ist oder der Bildschirm ausgeschaltet ist."
+"NSLocationWhenInUseUsageDescription" = "EN: Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale bekannt ist."
 
+"NSMotionUsageDescription" = "EN: Der Zugriff auf die Bewegungs- und Fitness-Daten verringert der Strombedarf und verlängert die Akku-Laufzeit."
