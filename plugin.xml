@@ -14,6 +14,17 @@
 				</array>
 		</config-file>
 		-->
+		<!-- CFBundleDevelopmentRegion (String - iOS, macOS) specifies the default language and region for the bundle, as a language ID.
+			The system uses this value if it cannot locate a resource for the user’s preferred language.
+		-->
+		<config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion" mode="overwrite">
+			<string>en</string>
+		</config-file>
+		<!-- CFBundleLocalizations (Array - iOS, macOS) identifies the localizations handled manually by your app.
+			If your executable is unbundled or does not use the existing bundle localization mechanism,
+			you can include this key to specify the localizations your app does handle.
+			???Seems to be required for us???
+		-->
 		<config-file target="*-Info.plist" parent="CFBundleLocalizations" mode="overwrite">
 				<array>
 					 <string>German</string>
