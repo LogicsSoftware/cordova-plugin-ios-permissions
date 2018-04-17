@@ -32,7 +32,8 @@
 		-->
 		<config-file target="*-Info.plist" parent="CFBundleLocalizations" mode="overwrite">
 				<array>
-					 <string>German</string>
+					 <string>en</string>
+					 <string>de</string>
 				</array>
 		</config-file>
 	<!--
