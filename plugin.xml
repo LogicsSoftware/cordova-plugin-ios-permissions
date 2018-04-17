@@ -43,6 +43,33 @@
 			<string>This app needs access to the photo library to pick images.</string>
 		</config-file>
 	-->
+
+<!-- from org -->
+<config-file platform="ios" target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+   <string>Wenn Sie Ihre Bilder in der App verwenden wollen, müssen Sie den Zugriff auf Ihre Bilder-Galerie hier freigeben.</string>
+</config-file>
+<onfig-file platform="ios" target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+   <string>Wenn Sie Ihre Bilder in der App verwenden wollen, müssen Sie den Zugriff auf Ihre Bilder-Galerie hier freigeben.</string>
+</config-file>
+<config-file platform="ios" target="*-Info.plist" parent="NSCameraUsageDescription">
+   <string>Wenn Sie Ihre Fotos in der App verwenden wollen, müssen Sie den Zugriff auf Ihre Kamera hier freigeben.</string>
+</config-file>
+
+<config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+   <string>Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale immer bekannt ist, auch wenn die App im Hintergrund ist oder der Bildschirm ausgeschaltet ist.</string>
+</config-file>
+<config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+   <string>Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale immer bekannt ist, auch wenn die App im Hintergrund ist oder der Bildschirm ausgeschaltet ist.</string>
+</config-file>
+<config-file platform="ios" target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+   <string>Diese App benötigt den Zugriff auf Ihren Standort, damit die Position Ihres Fahrzeugs in der Firmenzentrale bekannt ist.</string>
+</config-file>
+
+<config-file platform="ios" target="*-Info.plist" parent="NSMotionUsageDescription">
+   <string>Der Zugriff auf die Bewegungs- und Fitness-Daten verringert der Strombedarf und verlängert die Akku-Laufzeit.</string>
+</config-file>
+
+
 		<resource-file src="src/ios/de.lproj" />
 		<resource-file src="src/ios/en.lproj" />
 		<!-- <resource-file src="src/ios/pt.lproj" /> -->
