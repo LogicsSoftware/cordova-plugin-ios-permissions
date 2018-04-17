@@ -48,7 +48,7 @@
 <config-file platform="ios" target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
    <string>Wenn Sie Ihre Bilder in der App verwenden wollen, müssen Sie den Zugriff auf Ihre Bilder-Galerie hier freigeben.</string>
 </config-file>
-<onfig-file platform="ios" target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+<config-file platform="ios" target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
    <string>Wenn Sie Ihre Bilder in der App verwenden wollen, müssen Sie den Zugriff auf Ihre Bilder-Galerie hier freigeben.</string>
 </config-file>
 <config-file platform="ios" target="*-Info.plist" parent="NSCameraUsageDescription">
