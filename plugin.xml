@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ios-permissions" version="1.2">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ios-permissions" version="1.3">
 	<name>Cordova iOS Permissions</name>
 	<description>This plugin sets language dependant entries in the IOS plist file; does nothing on Android.</description>
 	<license>MIT</license>
@@ -9,15 +9,10 @@
 		<!--
 			https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html#//apple_ref/doc/uid/TP40009254-SW1
 			https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html#//apple_ref/doc/uid/20001431-109552
+
+			NOTE: cannot force "default language is English" here: French mode shows German text AND KEYBOARD!!
 		-->
-		<!-- NO!
-		<config-file platform="ios" target="*-Info.plist" parent="CFBundleLocalizations" mode="overwrite">
-				<array>
-					 <string>en</string>
-					 <string>de</string>
-				</array>
-		</config-file>
-		-->
+
 		<!-- CFBundleDevelopmentRegion (String - iOS, macOS) specifies the default language and region for the bundle, as a language ID.
 			For example, English for Australia has the language ID en-AU.
 			The system uses this value if it cannot locate a resource for the user’s preferred language.
@@ -25,6 +20,7 @@
 		<config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion" mode="overwrite">
 			<string>en</string>
 		</config-file>
+
 		<!-- CFBundleLocalizations (Array - iOS, macOS) identifies the localizations handled manually by your app.
 			If your executable is unbundled or does not use the existing bundle localization mechanism,
 			you can include this key to specify the localizations your app does handle.
@@ -36,17 +32,8 @@
 					 <string>de</string>
 				</array>
 		</config-file>
-	<!--
-		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-			<string>This app needs access to the camera to take photos.</string>
-		</config-file>
-		<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-			<string>This app needs access to the photo library to pick images.</string>
-		</config-file>
-	-->
 
-<!-- from org -->
-<!--
+<!-- from org, not required any more
 <config-file platform="ios" target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
    <string>Wenn Sie Ihre Bilder in der App verwenden wollen, müssen Sie den Zugriff auf Ihre Bilder-Galerie hier freigeben.</string>
 </config-file>
@@ -72,9 +59,8 @@
 </config-file>
 -->
 
-
 		<resource-file src="src/ios/en.lproj" />
 		<resource-file src="src/ios/de.lproj" />
-		<!-- <resource-file src="src/ios/pt.lproj" /> -->
+		
 	</platform>
 </plugin>
