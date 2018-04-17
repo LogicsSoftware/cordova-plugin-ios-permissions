@@ -23,7 +23,7 @@
 			The system uses this value if it cannot locate a resource for the user’s preferred language.
 		-->
 		<config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion" mode="overwrite">
-			<string>en-GB</string>
+			<string>en</string>
 		</config-file>
 		<!-- CFBundleLocalizations (Array - iOS, macOS) identifies the localizations handled manually by your app.
 			If your executable is unbundled or does not use the existing bundle localization mechanism,
@@ -46,6 +46,7 @@
 	-->
 
 <!-- from org -->
+<!--
 <config-file platform="ios" target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
    <string>Wenn Sie Ihre Bilder in der App verwenden wollen, müssen Sie den Zugriff auf Ihre Bilder-Galerie hier freigeben.</string>
 </config-file>
@@ -69,10 +70,11 @@
 <config-file platform="ios" target="*-Info.plist" parent="NSMotionUsageDescription">
    <string>Der Zugriff auf die Bewegungs- und Fitness-Daten verringert der Strombedarf und verlängert die Akku-Laufzeit.</string>
 </config-file>
+-->
 
 
-		<resource-file src="src/ios/de.lproj" />
 		<resource-file src="src/ios/en.lproj" />
+		<resource-file src="src/ios/de.lproj" />
 		<!-- <resource-file src="src/ios/pt.lproj" /> -->
 	</platform>
 </plugin>
